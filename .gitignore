@@ -1,0 +1,29 @@
+# Environment Variables and API Keys (CRITICAL - NEVER COMMIT)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Databases and Runtime State
+*.db
+*.sqlite
+*.sqlite3
+cinema_bot.db
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
